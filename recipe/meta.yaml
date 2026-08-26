@@ -1,13 +1,13 @@
 {% set name = "rspace-client" %}
-{% set version = "2.6.1" %}
+{% set version = "2.7.4" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/rspace_client-{{ version }}.tar.gz
-  sha256: 0ecefdc1a7daec24dd7eb3063d80a41072007212858e48eebfe76fbecf6de4df
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/rspace_client-{{ version }}.tar.gz
+  sha256: 9090f983a56e42bbc40197984896234738242275b96900976b1f016e38409873
 
 build:
   noarch: python
